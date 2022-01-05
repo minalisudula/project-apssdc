@@ -1,0 +1,58 @@
+.parent{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+
+
+}
+
+.parent>.card{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+
+
+}
+
+h2{
+    font-family:cursive
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+
+    body{
+        background-color: rgb(235, 183, 115);
+    }
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    
+
+    body{
+        background-color: rgb(17, 78, 45);
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    
+
+    body{
+        background-color: rgb(73, 105, 105);
+    }
+    
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1200px) {
+    
+
+    body{
+        background-color: rgb(196, 29, 93);
+    }
+    
+}
